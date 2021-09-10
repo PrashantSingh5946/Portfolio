@@ -5,6 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { HashRouter, NavLink, Route } from "react-router-dom";
 import home from "./pages/home";
 import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
+import { CgSmartphoneChip } from "react-icons/cg";
 function App() {
   const [vantaEffect, setVantaEffect] = useState(0);
   const myRef = useRef(null);
@@ -51,6 +52,8 @@ function App() {
         <div>
           <Navbar collapseOnSelect expand="lg" variant="dark">
             <Container>
+              <CgSmartphoneChip color={"white"} fontSize={"2rem"} />
+              &nbsp;
               <Navbar.Brand href="#">Portfolio</Navbar.Brand>
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
               <Navbar.Collapse id="responsive-navbar-nav">
