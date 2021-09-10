@@ -1,9 +1,13 @@
 #responsive-navbar-nav a{
     text-decoration: none;
-    color: #fff;
+    color: rgb(129, 119, 119);
     padding: .5rem 1rem;
     text-transform: uppercase;
     font-weight: 600;
+}
+
+#responsive-navbar-nav .active{
+    color: rgb(255, 255, 255);
 }
 
 #responsive-navbar-nav div{
