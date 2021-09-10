@@ -1,11 +1,38 @@
 import "./App.css";
+import React, { useState, useEffect, useRef } from "react";
+import WAVES from "vanta/dist/vanta.waves.min";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { HashRouter, NavLink, Route } from "react-router-dom";
+import home from "./pages/home";
 import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
 function App() {
-  const home = () => {
-    return <div>Home</div>;
-  };
+  const [vantaEffect, setVantaEffect] = useState(0);
+  const myRef = useRef(null);
+  useEffect(
+    () => {
+      if (!vantaEffect) {
+        setVantaEffect(
+          WAVES({
+            el: myRef.current,
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.0,
+            minWidth: 200.0,
+            scale: 1.5,
+            scaleMobile: 1.0,
+            color: 0x0,
+            shininess: 122.0,
+            waveSpeed: 1.05
+          })
+        );
+      }
+      return () => {
+        if (vantaEffect) vantaEffect.destroy();
+      };
+    },
+    [vantaEffect]
+  );
   const about = () => {
     return <div>About</div>;
   };
@@ -19,7 +46,7 @@ function App() {
     return <div>Work</div>;
   };
   return (
-    <div className="App">
+    <div className="App" id="bg" ref={myRef}>
       <HashRouter>
         <div>
           <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">

@@ -12,10 +12,36 @@
 
 .App{
     height:100vh;
-    background-color: #212529;
+    padding: 30px;
+    overflow: hidden;
 }
 
 .navbar-brand{
     font-weight: 600;
     font-size: 1.6rem!important;
+}
+
+.profile{
+    height: 80vh;
+    margin-left: 30vw;
+    overflow: hidden;
+    position: absolute;
+}
+
+.home{
+    display: inline;
+    overflow: hidden;
+}
+
+.name
+{
+    color: #fff;
+    position: absolute;
+    margin-left: 20vw;
+    margin-top: 40vh;
+}
+
+.content
+{
+    height: 100%;
 }
