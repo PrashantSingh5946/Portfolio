@@ -49,7 +49,7 @@ function App() {
     <div className="App" id="bg" ref={myRef}>
       <HashRouter>
         <div>
-          <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+          <Navbar collapseOnSelect expand="lg" variant="dark">
             <Container>
               <Navbar.Brand href="#">Portfolio</Navbar.Brand>
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
