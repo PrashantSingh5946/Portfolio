@@ -1,70 +1,80 @@
-#responsive-navbar-nav a{
-    text-decoration: none;
-    color: rgb(129, 119, 119);
-    padding: .5rem 1rem;
-    text-transform: uppercase;
-    font-weight: 600;
+#responsive-navbar-nav a {
+  text-decoration: none;
+  color: rgb(129, 119, 119);
+  padding: .5rem 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
-#responsive-navbar-nav .active{
-    color: rgb(255, 255, 255);
+#responsive-navbar-nav .active {
+  color: rgb(255, 255, 255);
 }
 
-#responsive-navbar-nav div{
-    margin-left: auto;
+#responsive-navbar-nav div {
+  margin-left: auto;
 }
 
-.App{
-    height:100vh;
-    padding: 30px;
-    overflow: hidden;
+.App {
+  height: 100vh;
+  padding: 30px;
+  overflow: hidden;
 }
 
-.navbar-brand{
-    font-weight: 600;
-    font-size: 1.6rem!important;
+.navbar-brand {
+  font-weight: 600;
+  font-size: 1.6rem !important;
 }
 
-.profile{
-    height: 80vh;
-    margin-left: 30vw;
-    overflow: hidden;
-    position: absolute;
-    opacity: 0.8;
+.profile {
+  height: 80vh;
+  margin-left: 30vw;
+  overflow: hidden;
+  position: absolute;
+  opacity: 0.8;
 }
 
-.home{
-    display: inline;
-    overflow: hidden;
+.home {
+  display: inline;
+  overflow: hidden;
 }
 
-.name
-{
-    color: #fff;
-    position: absolute;
-    margin-left: 20vw;
-    margin-top: 40vh;
+.name {
+  color: #fff;
+  position: absolute;
+  margin-left: 60vw;
+  margin-top: 40vh;
+}
+.name h1 {
+  font-size: 4rem;
 }
 
-.content
-{
-    height: 100%;
+.content {
+  height: 100%;
 }
 
-.mandal
-{
-
-    margin-left: -200px;
-    margin-top: 50vh;
-    position: absolute;
-    animation: myanimation 10s infinite ;
-    animation-timing-function: linear;
+.mandal {
+  margin-left: 200px;
+  margin-top: 40vh;
+  position: absolute;
 }
 
-@-webkit-keyframes myanimation {
-    100% { -webkit-transform: rotate(360deg); animation-timing-function: linear; }
+.outerpiece {
+  position: absolute;
+  animation: myanimation 10s infinite;
+  animation-timing-function: linear;
 }
 
 @keyframes myanimation {
-    100% { transform: rotate(360deg); animation-timing-function: linear; }
+  0% {
+    transform: scale(1) rotate(0deg);
+    animation-timing-function: linear;
+  }
+  50% {
+    transform: scale(1.5) rotate(180deg);
+    animation-timing-function: linear;
+  }
+  100% {
+    transform: scale(1) rotate(360deg);
+    animation-timing-function: linear;
+  }
 }

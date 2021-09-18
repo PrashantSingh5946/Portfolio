@@ -1,17 +1,14 @@
-import profile from "../assets/profile.png"
-import { ReactComponent as Logo } from "../assets/mandala.svg"
+import Circle from "../assets/Circle.png"
  const home = () => {
     return (
       <div className="home">
         <div className="name">
-          <h1>Prashant Singh</h1>
-          <small>Web Designer</small>
+          <h1>&#60;Prashant Singh/&#62;</h1>
+          <span>Web Designer</span>
         </div>
         <div className="mandal">
-          <Logo height="30rem" fill="red" stroke="green"></Logo>
+          <img src={Circle} className="outerpiece" />
         </div>
-
-        <img src={profile} alt="Profile pic" className="profile" />
       </div>
     );
 };
