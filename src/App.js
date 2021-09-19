@@ -4,7 +4,8 @@ import WAVES from "vanta/dist/vanta.waves.min";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { HashRouter, NavLink, Route } from "react-router-dom";
 import home from "./pages/home";
-import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
+import Contact from "./pages/contact";
+import { Navbar, Nav, Container } from "react-bootstrap";
 import { CgSmartphoneChip } from "react-icons/cg";
 function App() {
   const [vantaEffect, setVantaEffect] = useState(0);
@@ -37,9 +38,7 @@ function App() {
   const about = () => {
     return <div>About</div>;
   };
-  const contact = () => {
-    return <div>Contact</div>;
-  };
+
   const services = () => {
     return <div>Services</div>;
   };
@@ -75,7 +74,7 @@ function App() {
           <Route path="/about" component={about} />
           <Route path="/services" component={services} />
           <Route path="/work" component={work} />
-          <Route path="/contact" component={contact} />
+          <Route path="/contact" component={Contact} />
         </div>
       </HashRouter>
     </div>

@@ -1,0 +1,49 @@
+#contact {
+  background: rgba(0, 0, 0, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #fff;
+  width: 70vw;
+  margin-left: 14vw;
+  margin-top: 5vh;
+  padding: 80px;
+}
+
+#contact input,
+#contact textarea {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #fff;
+}
+
+#sendmessage {
+  margin-bottom: 25px;
+}
+
+.button {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #fff;
+  padding: 10px;
+}
+
+.button:hover {
+  background: #fff;
+  color: #000;
+}
+
+#contact input:hover,
+#contact input:active,
+#contact textarea:hover {
+  background: #fff;
+  color: #000;
+}
