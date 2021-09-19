@@ -4,6 +4,12 @@
   padding: .5rem 1rem;
   text-transform: uppercase;
   font-weight: 600;
+  transition: ease-in-out 0.5s all;
+}
+
+#responsive-navbar-nav a:hover {
+  border-bottom: 1px solid #fff;
+  transition: ease-in-out .5s all;
 }
 
 #responsive-navbar-nav .active {
