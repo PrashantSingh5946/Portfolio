@@ -4,8 +4,8 @@ import "./home.css"
     return (
       <div className="home">
         <div className="name">
-          <h1>&#60;Prashant Singh/&#62;</h1>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro veniam repellat neque unde assumenda quam beatae voluptas doloribus labore, ipsam eos temporibus tenetur iste dolor corporis consequatur iusto dolores? Voluptate!</p>
+          <h1>&#60;Prashant Singh<span>/</span>&#62;</h1>
+          <p>Hi, I am Prashant Singh a full stack developer and i love making websites.I have a wide range of skills along with a background in API and UI automtion.</p>
         </div>
         <div className="mandal">
           <img src={Circle} className="outerpiece" />
