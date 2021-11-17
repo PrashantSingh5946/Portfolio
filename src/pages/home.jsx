@@ -1,4 +1,3 @@
-import Circle from "../assets/Circle.png"
 import "./home.css"
  const home = () => {
     return (
