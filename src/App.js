@@ -80,7 +80,8 @@ function App() {
           <Route path="/work" component={work} />
           <Route path="/contact" component={Contact} />
           <Route path="/budget_tracker" onEnter={reload} />
-          <Route path="/budget_tracker" onEnter={reload} />
+          <Route path="/trello" onEnter={reload} />
+          <Route path="/food" onEnter={reload} />
 
         </div>
       </Router>
