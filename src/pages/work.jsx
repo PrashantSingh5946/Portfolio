@@ -46,17 +46,17 @@ export default function work() {
           </div>
           <div className="col-md-4">
             <div className="work-box">
-              <a href="assets/img/work-2.jpg" data-gallery="portfolioGallery" className="portfolio-lightbox">
+              <a href="#" data-gallery="portfolioGallery" className="portfolio-lightbox">
                 <div className="work-img">
-                  <img src="assets/img/work-2.jpg" alt="" className="img-fluid"/>
+                  <img src="assets/img/food.png" alt="Food Order app" className="img-fluid"/>
                 </div>
               </a>
               <div className="work-content">
                 <div className="row">
                   <div className="col-sm-8">
-                    <h2 className="w-title">Loreda Cuno Nere</h2>
+                    <h2 className="w-title">Food Order App</h2>
                     <div className="w-more">
-                      <span className="w-ctegory">Web Design</span> / <span className="w-date">18 Sep. 2018</span>
+                      <span className="w-ctegory">Web Design</span> / <span className="w-date">31 May 2021</span>
                     </div>
                   </div>
                   <div className="col-sm-4">
