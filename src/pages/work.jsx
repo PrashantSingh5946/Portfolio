@@ -46,7 +46,7 @@ export default function work() {
           </div>
           <div className="col-md-4">
             <div className="work-box">
-              <a href="#" data-gallery="portfolioGallery" className="portfolio-lightbox">
+              <a href="/food" data-gallery="portfolioGallery" className="portfolio-lightbox">
                 <div className="work-img">
                   <img src="assets/img/food.png" alt="Food Order app" className="img-fluid"/>
                 </div>
