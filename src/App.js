@@ -4,6 +4,7 @@ import WAVES from "vanta/dist/vanta.waves.min";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, NavLink, Route } from "react-router-dom";
 import home from "./pages/home";
+import work from "./pages/work";
 import Contact from "./pages/contact";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { CgSmartphoneChip } from "react-icons/cg";
@@ -41,9 +42,6 @@ function App() {
 
   const services = () => {
     return <div>Services</div>;
-  };
-  const work = () => {
-    return <div>Work</div>;
   };
 
   const reload = () => window.location.reload();
