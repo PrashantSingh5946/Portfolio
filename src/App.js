@@ -2,7 +2,7 @@ import "./App.css";
 import React, { useState, useEffect, useRef } from "react";
 import WAVES from "vanta/dist/vanta.waves.min";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { HashRouter, NavLink, Route } from "react-router-dom";
+import { BrowserRouter as Router, NavLink, Route } from "react-router-dom";
 import home from "./pages/home";
 import Contact from "./pages/contact";
 import { Navbar, Nav, Container } from "react-bootstrap";
@@ -45,9 +45,13 @@ function App() {
   const work = () => {
     return <div>Work</div>;
   };
+
+  const reload = () => window.location.reload();
+
+  
   return (
     <div className="App" id="bg" ref={myRef}>
-      <HashRouter>
+      <Router>
         <div>
           <Navbar collapseOnSelect expand="lg" variant="dark">
             <Container>
@@ -75,8 +79,11 @@ function App() {
           <Route path="/services" component={services} />
           <Route path="/work" component={work} />
           <Route path="/contact" component={Contact} />
+          <Route path="/budget_tracker" onEnter={reload} />
+          <Route path="/budget_tracker" onEnter={reload} />
+
         </div>
-      </HashRouter>
+      </Router>
     </div>
   );
 }
