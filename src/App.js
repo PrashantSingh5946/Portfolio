@@ -80,6 +80,8 @@ function App() {
           <Route path="/budget_tracker" onEnter={reload} />
           <Route path="/trello" onEnter={reload} />
           <Route path="/food" onEnter={reload} />
+          <Route path="/bigsur" onEnter={reload} />
+
 
         </div>
       </Router>
