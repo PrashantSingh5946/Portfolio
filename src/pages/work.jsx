@@ -92,7 +92,54 @@ export default function work() {
               </div>
             </div>
           </div>
-
+          <div className="col-md-4">
+            <div className="work-box">
+              <a href="/carousel" data-gallery="portfolioGallery" className="portfolio-lightbox">
+                <div className="work-img">
+                  <img src="assets/img/carousel.png" alt="React Carousel" className="img-fluid"/>
+                </div>
+              </a>
+              <div className="work-content">
+                <div className="row">
+                  <div className="col-sm-8">
+                    <h2 className="w-title">React Carousel</h2>
+                    <div className="w-more">
+                      <span className="w-ctegory">Web Design</span> / <span className="w-date">20 Jan. 2022</span>
+                    </div>
+                  </div>
+                  <div className="col-sm-4">
+                    <div className="w-like">
+                      <a href="#"> <span className="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-4">
+            <div className="work-box">
+              <a href="/morris" data-gallery="portfolioGallery" className="portfolio-lightbox">
+                <div className="work-img">
+                  <img src="assets/img/morris.png" alt="React Carousel" className="img-fluid"/>
+                </div>
+              </a>
+              <div className="work-content">
+                <div className="row">
+                  <div className="col-sm-8">
+                    <h2 className="w-title">Nine Men's morris</h2>
+                    <div className="w-more">
+                      <span className="w-ctegory">Web Design</span> / <span className="w-date">20 Nov. 2020</span>
+                    </div>
+                  </div>
+                  <div className="col-sm-4">
+                    <div className="w-like">
+                      <a href="#"> <span className="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
         </div>
       </div>
