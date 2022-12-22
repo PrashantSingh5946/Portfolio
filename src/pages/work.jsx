@@ -141,6 +141,32 @@ export default function work() {
             </div>
           </div>
 
+          <div className="col-md-4">
+            <div className="work-box">
+              <a href="/quiz" data-gallery="portfolioGallery" className="portfolio-lightbox">
+                <div className="work-img">
+                  <img src="assets/img/morris.png" alt="React Quiz app" className="img-fluid"/>
+                </div>
+              </a>
+              <div className="work-content">
+                <div className="row">
+                  <div className="col-sm-8">
+                    <h2 className="w-title">Quiz app</h2>
+                    <div className="w-more">
+                      <span className="w-ctegory">Web Design</span> / <span className="w-date">21 Dec. 2022</span>
+                    </div>
+                  </div>
+                  <div className="col-sm-4">
+                    <div className="w-like">
+                      <a href="#"> <span className="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
         </div>
       </div>
     </section>

@@ -6,6 +6,8 @@
   #work
   {
     color: #fff;
+    overflow-y: auto;
+    overflow-x: hidden;
   }
 
   #work h2
