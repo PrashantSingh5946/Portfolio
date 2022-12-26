@@ -166,6 +166,30 @@ export default function work() {
             </div>
           </div>
 
+          <div className="col-md-4">
+            <div className="work-box">
+              <a href="/sign" data-gallery="portfolioGallery" className="portfolio-lightbox">
+                <div className="work-img">
+                  <img src="assets/img/sign.png" alt="PDF Signing app" className="img-fluid"/>
+                </div>
+              </a>
+              <div className="work-content">
+                <div className="row">
+                  <div className="col-sm-8">
+                    <h2 className="w-title">Document Sign app</h2>
+                    <div className="w-more">
+                      <span className="w-ctegory">Web Design</span> / <span className="w-date">8 Nov. 2022</span>
+                    </div>
+                  </div>
+                  <div className="col-sm-4">
+                    <div className="w-like">
+                      <a href="#"> <span className="bi bi-plus-circle"></span></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
         </div>
       </div>
