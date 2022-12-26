@@ -19,7 +19,7 @@ export default function work() {
             </div>
           </div>
         </div>
-        <div className="row">
+        <div className="row" id="workItems">
           <div className="col-md-4">
             <div className="work-box">
               <a href="/trello" data-gallery="portfolioGallery" className="portfolio-lightbox">
@@ -145,7 +145,7 @@ export default function work() {
             <div className="work-box">
               <a href="/quiz" data-gallery="portfolioGallery" className="portfolio-lightbox">
                 <div className="work-img">
-                  <img src="assets/img/morris.png" alt="React Quiz app" className="img-fluid"/>
+                  <img src="assets/img/quiz.png" alt="React Quiz app" className="img-fluid"/>
                 </div>
               </a>
               <div className="work-content">

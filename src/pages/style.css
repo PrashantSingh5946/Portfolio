@@ -6,10 +6,13 @@
   #work
   {
     color: #fff;
-    overflow-y: auto;
     overflow-x: hidden;
   }
 
+  #work #workItems{
+    overflow-y: scroll;
+    height: 70vh;
+  }
   #work h2
   {
     color:#333 ;
